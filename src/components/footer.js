@@ -30,7 +30,7 @@ const FooterContainer = styled.footer`
 const Footer = () => (
   <FooterContainer>
     <img src={Logo} alt="logo" />
-    <a href="https://ayanbag.github.io">Made by Ayan</a>
+    <a href="https://ayanbag.github.io" target="_blank">Made by Ayan</a>
   </FooterContainer>
 );
 

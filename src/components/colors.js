@@ -67,8 +67,8 @@ const ColorButton = styled.button`
 `;
 
 const colors = [
-  '#171c28',
-  '#1d2433',
+  '#45F7B9',
+  '#7C75FF',
   '#D5B5FF',
   '#C2E67E',
   '#F92672',

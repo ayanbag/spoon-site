@@ -8,6 +8,7 @@ import Atom from '../images/logos/atom-green.png';
 import VSCode from '../images/logos/vscode-new.png';
 import iTerm from '../images/logos/iterm.png';
 import Hyper from '../images/logos/hyperterm.png';
+import Github from '../images/logos/github.png';
 
 const PlatformsContainer = styled.div`
   display: flex;
@@ -47,6 +48,11 @@ const PlatformName = styled.div`
 `;
 
 const platforms = [
+  {
+    name: 'Source Code',
+    url: 'https://github.com/ayanbag/spoon-vscode',
+    logo: Github,
+  },
   {
     name: 'VS Code',
     url: 'https://marketplace.visualstudio.com/items?itemName=ayanbag.spoon-vscode',
